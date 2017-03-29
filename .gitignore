@@ -1,0 +1,6 @@
+node_modules/
+demo/dist/**
+src/**/*.js
+src/**/*.map
+!src/systemjs.config.js
+npm-debug.log
