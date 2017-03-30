@@ -10,7 +10,8 @@ declare const PR: any;
 //declare const require: any;
 //declare const global: any;
 
-/*declare module jasmine
+/*
+declare module jasmine
 {
     interface Matchers
     {

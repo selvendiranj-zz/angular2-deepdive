@@ -1,5 +1,5 @@
 {
-    "name": "ng2-bootstrap-base",
+    "name": "angular2-deepdive",
     "version": "1.4.2",
     "description": "Native Angular Bootstrap Components",
     "private": true,
@@ -73,15 +73,22 @@
     "homepage": "https://github.com/valor-software/ng2-bootstrap#readme",
     "dependencies": {
         "moment": "2.18.1",
-        "ng2-bootstrap": "1.4.2"
+        "ng2-bootstrap": "1.6.0"
     },
     "peerDependencies": {
+        "@angular/animations": "^4.0.0",
         "@angular/common": "^4.0.0",
         "@angular/compiler": "^4.0.0",
         "@angular/core": "^4.0.0",
-        "@angular/forms": "^4.0.0"
+        "@angular/forms": "^4.0.0",
+        "@angular/http": "^4.0.0",
+        "@angular/language-service": "^4.0.0",
+        "@angular/platform-browser": "^4.0.0",
+        "@angular/platform-browser-dynamic": "^4.0.0",
+        "@angular/router": "^4.0.0"
     },
     "devDependencies": {
+        "@angular/animations": "^4.0.0",
         "@angular/cli": "1.0.0",
         "@angular/common": "^4.0.0",
         "@angular/compiler": "^4.0.0",
@@ -94,10 +101,10 @@
         "@angular/platform-browser-dynamic": "^4.0.0",
         "@angular/router": "^4.0.0",
         "@angular/tsc-wrapped": "4.0.0",
-        "@types/jasmine": "2.5.46",
+        "@types/jasmine": "2.5.47",
         "@types/marked": "0.0.28",
-        "@types/node": "7.0.11",
-        "@types/webpack": "^2.2.12",
+        "@types/node": "7.0.12",
+        "@types/webpack": "^2.2.13",
         "bootstrap": "3.3.7",
         "classlist-polyfill": "1.0.3",
         "codecov": "2.1.0",
@@ -141,6 +148,7 @@
         "typescript": "2.2.2",
         "wallaby-webpack": "0.0.38",
         "webdriver-manager": "12.0.4",
+        "webpack": "2.3.2",
         "webpack-bundle-analyzer": "2.3.1",
         "zone.js": "0.8.5"
     }
